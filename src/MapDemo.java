@@ -20,7 +20,12 @@ public class MapDemo {
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
             System.out.println("name " + entry.getKey() + "  age is "
                     + entry.getValue());
+
         }
+        System.out.println("завершение программы");
+
+
+
         System.out.println("///////////////");
         System.out.println(map.getOrDefault("bob", 4210));
         System.out.println(map.get("alice"));
@@ -32,4 +37,5 @@ public class MapDemo {
         System.out.println(treeMap);
 
     }
+
 }
